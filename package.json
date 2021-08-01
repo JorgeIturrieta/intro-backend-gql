@@ -11,11 +11,19 @@
   "author": "Jorge Iturrieta",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.0.2",
+    "@graphql-tools/schema": "^7.1.5",
+    "apollo-server-express": "^3.1.1",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "graphql": "^15.5.1",
+    "graphql-subscriptions": "^1.2.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.3",
-    "mongoose-unique-validator": "^2.0.3"
+    "mongoose-unique-validator": "^2.0.3",
+    "subscriptions-transport-ws": "^0.9.19"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.4"
   }
 }
